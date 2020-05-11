@@ -4,7 +4,7 @@
   "description": "This extension notifies you on Jenkins build results, modified from original to enable its use in highly regulated environments.",
   "author": "Jean d'Arc",
   "homepage_url": "https://github.com/jdarc/yet-another-jenkins-notifier",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "applications": {
     "gecko": {
       "id": "yet-another-jenkins-notifier-slim@darc.void",
@@ -30,7 +30,7 @@
     "page": "options.html",
     "chrome_style": true
   },
-  "content_security_policy": "default-src 'self'",
+  "content_security_policy": "script-src 'self'; object-src 'self';",
   "permissions": [
     "<all_urls>",
     "storage",
