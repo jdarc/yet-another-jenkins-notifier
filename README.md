@@ -1,7 +1,8 @@
- ![Jenkins Logo](img/icon48.png) Yet Another Jenkins Notifier
+ ![Jenkins Logo](img/icon48.png) Yet Another Jenkins Notifier - Slim
 ------------------
 
 This extension monitors Jenkins jobs and notifies you of build results with desktop notifications.
+Forked from original extension to remove Google Analytics so they aren't a blocker for use in highly regulated environments.
 
 Features:  
 ✔ Pop-up notifications  
@@ -11,10 +12,6 @@ Features:
 ✔ Number of failing, unstable or stable jobs in icon badge  
 ✔ Choose to be notified on every build or on every unstable build
 
-# Installation
-[![Add to Chrome](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/yet-another-jenkins-notif/cimdjdaglanfkpfpoemjkfkmjgkmahpg)
-[![Add to Firefox](screenshots/firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/yet-another-jenkins-notifier/)
-
 # Screenshots
 
 ![Jobs list pop-up and desktop notification](screenshots/1280x800.png)
@@ -23,19 +20,19 @@ _____________
 _____________
 ![Configuration page](screenshots/options.png)
 
-# Author
+# Originl Author
 
-This extension was created by Guillaume Girou ([Google+](https://plus.google.com/+GuillaumeGirou), [Twitter](https://twitter.com/GirouGuillaume), [GitHub](https://github.com/ggirou)).
+This extension was originally created by Guillaume Girou ([Google+](https://plus.google.com/+GuillaumeGirou), [Twitter](https://twitter.com/GirouGuillaume), [GitHub](https://github.com/ggirou)).
 
 # Source
 
-Source code available on [GitHub](https://github.com/ggirou/yet-another-jenkins-notifier).
+Original source code available on [GitHub](https://github.com/ggirou/yet-another-jenkins-notifier).
 
-# Bug tracker
+# Bugs
 
-Found a bug? Please submit an issue on [GitHub](https://github.com/ggirou/yet-another-jenkins-notifier/issues/new) or even better, submit a pull request :)
+Do not contact the original author for issues with this extension, in fact please use the original extension whenever possible!
 
 # Copyright and license
 
-Copyright 2016 Yet Another Jenkins Notifier.
+Copyright 2016 Yet Another Jenkins Notifier, belongs to original author.
 Released under [GNU General Public License v3.0](https://github.com/ggirou/yet-another-jenkins-notifier/blob/master/LICENSE).

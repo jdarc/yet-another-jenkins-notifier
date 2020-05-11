@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Yet Another Jenkins Notifier",
-  "description": "This extension notifies you on Jenkins build results.",
-  "author": "Guillaume Girou",
-  "homepage_url": "https://github.com/ggirou/yet-another-jenkins-notifier",
-  "version": "2.3.1",
+  "name": "Yet Another Jenkins Notifier - Slim",
+  "description": "This extension notifies you on Jenkins build results, modified from original to enable its use in highly regulated environments.",
+  "author": "Jean d'Arc",
+  "homepage_url": "https://github.com/jdarc/yet-another-jenkins-notifier",
+  "version": "1.0.0",
   "applications": {
     "gecko": {
-      "id": "yet-another-jenkins-notifier@guillaume.girou",
+      "id": "yet-another-jenkins-notifier-slim@darc.void",
       "strict_min_version": "46.0"
     }
   },
@@ -16,7 +16,7 @@
     "browser_style": false,
     "default_icon": "img/icon.png",
     "default_popup": "popup.html",
-    "default_title": "Yet Another Jenkins Notifier"
+    "default_title": "Yet Another Jenkins Notifier - Slim"
   },
   "icons": {
     "16": "img/icon16.png",
@@ -24,13 +24,13 @@
     "128": "img/icon128.png"
   },
   "background": {
-    "scripts": ["js/services.js", "js/background.js", "js/ga.js"]
+    "scripts": ["js/services.js", "js/background.js"]
   },
   "options_ui": {
     "page": "options.html",
     "chrome_style": true
   },
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "content_security_policy": "default-src 'self'",
   "permissions": [
     "<all_urls>",
     "storage",
