@@ -48,7 +48,7 @@
     setTimeout(function () {
       statusElement.style.visibility = "hidden";
     }, 2000);
-  };
+  }
 
   function showJobUrls(jobs) {
     urlsTextarea.value = Object.keys(jobs).join("\n");

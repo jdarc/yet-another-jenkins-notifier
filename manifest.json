@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Yet Another Jenkins Notifier - Slim",
-  "description": "This extension notifies you on Jenkins build results, modified from original to enable its use in highly regulated environments.",
+  "description": "This extension notifies you on Jenkins build results, modified from original to remove Google analytics to enable use in highly regulated environments.",
   "author": "Jean d'Arc",
-  "homepage_url": "https://github.com/jdarc/yet-another-jenkins-notifier",
-  "version": "1.0.2",
+  "homepage_url": "https://github.com/jdarc/yet-another-jenkins-notifier-slim",
+  "version": "1.0.3",
   "applications": {
     "gecko": {
       "id": "yet-another-jenkins-notifier-slim@darc.void",
